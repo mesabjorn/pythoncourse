@@ -58,7 +58,7 @@ print(f"\tpatient = {patient}")
 print("\n\n\nEen lijst met patienten uit een tekstfile:")
 
 
-f = open("./patienten.csv")		# open tekstfile 'patients.csv'
+f = open("./data/patienten.csv")		# open tekstfile 'patients.csv'
 regels = f.readlines()			# lijst van regels in tekstfile: 'patients.csv'
 f.close()						# sluit file na gebruik
 
